@@ -1,0 +1,37 @@
+body{
+    background-image: url(/images/image1.jpg);
+    background-color: burlywood;
+}
+.myimage{
+    text-align: center;
+    margin: 100px;
+    padding: 25px;
+}
+h2{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: inherit;
+    color: brown;
+}
+.container{
+    padding: 16px;
+}
+input[type=text],
+input[type=password],
+input[type=email]{
+    width: 30%;
+    padding: 15px;
+    margin: 5px;
+     display: inline-block; 
+    border: none;
+}
+input[type=text],
+input[type=password]:focus{
+    outline: none;
+}
+label{
+    display: inline-block;
+    width: 120px;
+    color: black;
+}
